@@ -745,7 +745,7 @@
             <a href="#profil">ABOUT ME</a>
             <a href="#skills">SKILL</a>
             <a href="#projects">PROJECT</a>
-            <a href="#certificates">certificates</a>
+            <a href="#certificates">CERTIFICATES</a>
             <a href="#contact">CONTACT</a>
         </div>
     </header>
@@ -761,7 +761,7 @@
     <div class="container">
         <section class="profil" id="profil">
             <h1 class="section-title">About Me</h1>
-            <p class="paragraft">My name is Fakhri Cahyo D.N. My hobby is coding, and I learned coding autodidactically. This is a new experience for me to create a portfolio website. My educational background is that I attended SMPN 6 SBY, I was also quite active in participating in school activities (in class or organizations)</p>
+            <p class="paragraft">My name is Fakhri Cahyo D.N. My hobby is coding, and I learned coding autodidactically. This is a new experience for me to create a portfolio website. My educational background is that I attended SMPN 6 SBY, I was also quite active in participating in school activities (in class or organizations)for now I am attending smk negeri 1 surabaya majoring in rpl, I go to school here to develop my talents in the field of web creation.</p>
         </section>
 
         <section class="skills" id="skills">
@@ -973,13 +973,20 @@
         </div>
     </section>
         <section class="contact" id="contact">
+           
             <h1 class="section-title">Contact</h1>
             <a href="https://wa.me/628815021497" target="_blank" class="btn">Contact Me</a>
         <br>
         <br>
             <h1 class="section-title">Email</h1>
             <a href="mailto:ditofakhri3@example.com" class="btn">Email Me</a>
-        </section>
+        </section> 
+        
+        <form action="" method="POST">
+            <input type="text" name="nama">
+            <input type="email" name="email">
+            <input type="text" name="pesan">
+        </form>
     </div>
 
     <footer>
@@ -987,7 +994,7 @@
     </footer>
 
     <script>
-  const texts = ["enjoy ", "welcome my portofolio"];
+  const texts = ["welcome my portofolio", "enjoy"];
 const typingSpeed = 100;
 const erasingSpeed = 50;
 const delayBeforeErase = 1000;
